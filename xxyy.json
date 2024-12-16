@@ -1,0 +1,55 @@
+{
+    "appId": "lobby",
+    "appType": 1,
+    "appLink": 1,
+    "appStatus": 0,
+    "appMaintText": "2023-10-12 05:00~07:00",
+    "version": "0.0.1",
+    "languages": [
+        {
+            "id": "pt",
+            "title": "Português"
+        },
+        {
+            "id": "en",
+            "title": "English"
+        },
+        {
+            "id": "es",
+            "title": "Español"
+        }
+    ],
+    "logLevel": 2,
+    "timerManagerEnable": false,
+    "timerManagerInterval": 500,
+    "stopwatchEnable": true,
+    "stopwatchMilliseconds": 500,
+    "env": "dev",
+    "configs": [
+        {
+            "operatorId": "own_lobby_bra",
+            "name": "dev",
+            "logLevel": 0,
+            "xxyyUrl": "http://192.168.100.102:5001",
+            "imgBaseUrl": "https://static.bet77s.com",
+            "xxyyTimeout": 1800000,
+            "appUrl": "http://192.168.100.102:5004",
+			
+            "activityUrl": "http://192.168.100.102:5005",
+			
+            "commonUrl": "http://192.168.100.102:5006"
+			
+			
+        },
+        {
+            "name": "staging"
+        },
+        {
+            "name": "prod",
+            "xxyyUrl": "/xxyy",
+			
+            "imgBaseUrl": "https://static.bet77s.com",
+            "appUrl": ""
+        }
+    ]
+}

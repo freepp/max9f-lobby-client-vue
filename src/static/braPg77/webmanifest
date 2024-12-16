@@ -1,0 +1,24 @@
+{
+    "name": "PG77",
+    "short_name": "PG77",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0e0e0f",
+    "lang": "en",
+    "scope": ".",
+    "description": "PG77",
+    "id": "PG77",
+    "icons": [
+        {
+            "src": "/static/braPg77/icon_192_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/braPg77/icon_512_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#0e0e0f"
+}

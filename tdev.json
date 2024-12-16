@@ -1,0 +1,48 @@
+{
+    "options": {
+        "LogLevel": 2,
+        "DefaultArgs": ""
+    },
+    "ecmds": [
+        {
+            "Verb": "api-xxyy",
+            "Options": "swagger-to-ts -i 1 -p http://192.168.1.121:9009/swagger/v1/swagger.json -o ./src/NET/xxyy -n account,oauth",
+            "Desc": "swagger生成ts"
+        },
+        {
+            "Verb": "api-lobby",
+            "Options": "swagger-to-ts -i 1 -p http://192.168.1.121:9002/swagger/v1/swagger.json -o ./src/NET/lobby -n home,initLobby,profile,sCommon,Message,activitys,BindMobile,inviteNewuser,Promote,signin,task,Redpack,loseCashBack,rouletteNew,WeeklyCard",
+            "Desc": "swagger生成ts"
+        },
+        {
+            "Verb": "lang-excel",
+            "Options": "i18n-langs-excel -j src/locale/en.json -o src/locale/langs.xlsx", 
+            "Desc": ""
+        },
+        {
+            "Verb": "lang-excel-es",
+            "Options": "i18n-langs-excel -j src/locale/es.json -o src/locale/langs-es.xlsx",
+            "Desc": ""
+        },
+        {
+            "Verb": "lang-excel-pt",
+            "Options": "i18n-langs-excel -j src/locale/pt.json -o src/locale/langs-pt.xlsx",
+            "Desc": ""
+        },
+        {
+            "Verb": "excel-lang",
+            "Options": "i18n-excel-langs -e src/locale/langs.xlsx -o src/locale -j src/locale/en.json",
+            "Desc": ""
+        },
+        {
+            "Verb": "lang-json",
+            "Options": "i18n-langs-jsons -j src/locale/en.json -o src/locale -e src/locale/langs.xlsx",
+            "Desc": ""
+        },
+        {
+            "Verb": "all",
+            "Options": "ecmd-batch --verbs ws,api,xls,res",
+            "Desc": "执行批处理"
+        }
+    ]
+}

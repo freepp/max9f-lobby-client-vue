@@ -1,0 +1,82 @@
+module.exports = {
+    purge: ['./src/**/*.{vue,js,ts,jsx,tsx}'],
+    darkMode: false, // or 'media' or 'class'
+    separator: '__', // 兼容小程序，将 : 替换成 __
+    theme: {
+        extend: {
+            fontSize: {
+                20: '20rpx',
+                22: '22rpx',
+                24: '24rpx',
+                26: '26rpx',
+                28: '28rpx',
+                30: '30rpx',
+                32: '32rpx',
+                34: '34rpx',
+                36: '36rpx',
+                38: '38rpx',
+                40: '40rpx',
+                42: '42rpx',
+                44: '44rpx',
+                46: '46rpx',
+                48: '48rpx',
+                50: '50rpx',
+            },
+            textColor: {
+                'white-100': '#fff',
+                'white-90': '#CDCFCF',
+                'white-80': '#A8A8A8',
+                'white-60': '#808080',
+                'white-40': '#636363',
+                'black-100': '#0E0E0F',
+                'black-80': '#454545',
+                'black-60': '#6a6a6a',
+                'black-40': '#a2a2a2',
+                red: '#FF2A00',
+                green: '#28C76F',
+                yellow: '#F2AC35',
+            },
+            backgroundColor: {
+                'theme-100': 'var(--UI-BG-1)',
+                'theme-80': '#245339',
+                'theme-60': '#296c47',
+                primary: 'var(--primary-color)',
+                info: '#d1d1d9',
+                warning: '#ff6c22',
+                default: '#ffffff',
+                'black-90': '#151516',
+                'black-80': '#1B1C1C',
+                'black-60': '#282828',
+                dialog: '#E8E8E8',
+                mask: 'rgba(0, 0, 0, 0.7)',
+            },
+            borderRadius: {
+                7: '7rpx',
+                10: '10rpx',
+                14: '14rpx',
+                21: '21rpx',
+            },
+            borderColor: {
+                'white-100': '#fff',
+                'black-80': '#454545',
+            },
+            boxShadow: {
+                black: '0px 1px 6px 0px #000000',
+                white: '0px 1px 6px 0px #ADADAD',
+            },
+        },
+    },
+    variants: {
+        extend: {},
+    },
+    plugins: [],
+    corePlugins: {
+        // 兼容小程序，将带有 * 选择器的插件禁用
+        preflight: false,
+        space: false,
+        divideColor: false,
+        divideOpacity: false,
+        divideStyle: false,
+        divideWidth: false,
+    },
+}

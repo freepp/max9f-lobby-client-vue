@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    --UI-BG-0: #0e0e0f;
+    --UI-BG: #0e0e0f;
+    --UI-BG-1: #1b1c1c;
+    --UI-BG-2: #ec1b1a;
+    --UI-BG-3: #ff6d22;
+    --UI-BG-4: #245339;
+    --UI-BG-5: #fff;
+    --UI-FG: #fff;
+    --UI-FG-0: rgba(255, 255, 255, 0.9);
+    --UI-FG-HALF: rgba(255, 255, 255, 0.9);
+    --UI-FG-1: rgba(255, 255, 255, 0.5);
+    --UI-FG-2: rgba(255, 255, 255, 0.3);
+    --UI-FG-3: rgba(255, 255, 255, 0.1);
+    --UI-FS: 24rpx;
+}
+:root {
+    --theme-tab-color: #1b1c1c;
+    --primary-color: #f82e49;
+}
+page {
+    height: 100%;
+}
+
+body {
+    font-size: var(--UI-FS);
+    padding: 0;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'STXihei',
+        'PingFang SC', 'Hiragino Sans GB', Arial, sans-serif;
+}
+
+@media (0px < width < 1680px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (width > 960px) {
+    ::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
+    }
+    body,
+    html,
+    .uni-tabbar-bottom,
+    .uni-tabbar {
+        width: 375px;
+        margin: 0 auto;
+    }
+}
+
+.uni-drawer {
+    .uni-drawer__content {
+        width: 568rpx !important;
+        background-color: #e0e0e0 !important;
+    }
+
+    .uni-drawer__mask {
+        background-color: rgba(0, 0, 0, 0.7) !important;
+    }
+}
+.normal-btn {
+    @apply w-full flex justify-center items-center;
+    height: 90rpx;
+    border-radius: 14rpx;
+    font-size: 34rpx;
+    // background: #098842;
+    color: #ffffff;
+    font-weight: bold;
+    &.bg-primary {
+        &:active {
+            background-color: rgba(248, 46, 73, 0.6);
+            transform: scale(0.96);
+        }
+    }
+    &.bg-default {
+        box-sizing: border-box;
+        border: 2rpx solid #585e5e;
+        color: #585e5e;
+    }
+    &.disabled {
+        opacity: 0.4;
+        &:active {
+            transform: scale(1);
+        }
+    }
+}
+.normal-btn.bg-warning {
+    &:active {
+        background: #994114;
+        transform: scale(0.96);
+    }
+}
+
+// 已废弃
+.primary-btn {
+    @apply w-full flex justify-center items-center;
+    height: 90rpx;
+    border-radius: 14rpx;
+    font-size: 34rpx;
+    background: #098842;
+    color: #ffffff;
+    font-weight: bold;
+    &:active {
+        background: #055228;
+        transform: scale(0.96);
+    }
+}
+
+// 已废弃
+.primary-btn-disabled {
+    @apply w-full flex justify-center items-center;
+    height: 90rpx;
+    border-radius: 14rpx;
+    font-size: 34rpx;
+    background: #098842;
+    color: #ffffff;
+    font-weight: bold;
+    opacity: 0.4;
+}
+// 已废弃
+.info-btn {
+    @apply w-full flex justify-center items-center;
+    background: #d1d1d9;
+    &:active {
+        background: #d1d1d9;
+        transform: scale(0.96);
+    }
+}
+// 已废弃
+.border-btn {
+    border: 2rpx solid #585e5e;
+    background-color: #fff;
+    color: #202020;
+    box-sizing: border-box;
+    &:active {
+        background-color: #fff;
+    }
+}
+// 已废弃
+.inverse-btn {
+    background-color: #ff6c22;
+    &:active {
+        background-color: #994114;
+    }
+}
+
+::v-deep .uni-swiper__warp {
+    height: 100% !important;
+}
+
+
+/* 中间tabbar定制样式 */
+.uni-tabbar-bottom {
+  .uni-tabbar {
+    .uni-tabbar__item {
+      &:nth-child(4) {
+        .uni-tabbar__bd {
+          .uni-tabbar__icon {
+            position: relative;
+            img {
+              width: 48px !important;
+              height: 48px !important;
+              position: absolute;
+              top: -110%;
+              left: 50%;
+              transform: translateX(-50%);
+              border-radius: 50%;
+              background: #1b1c1c;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@font-face {
+  font-family: 'Eras Bold ITC';
+  src: url('@/assets/text/ERASBD.TTF');
+}
+
+@font-face {
+  font-family: 'Agency FB';
+  src: url('@/assets/text/AGENCYR.TTF');
+}
+
+@font-face {
+  font-family: 'Impact';
+  src: url('@/assets/text/impact.ttf');
+}

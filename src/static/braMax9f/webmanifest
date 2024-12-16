@@ -1,0 +1,24 @@
+{
+    "name": "MAX9f",
+    "short_name": "MAX9f",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0e0e0f",
+    "lang": "en",
+    "scope": ".",
+    "description": "MAX9f",
+    "id": "MAX9f",
+    "icons": [
+        {
+            "src": "/static/braMax9f/icon_192_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/braMax9f/icon_512_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#0e0e0f"
+}

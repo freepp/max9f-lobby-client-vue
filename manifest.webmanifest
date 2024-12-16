@@ -1,0 +1,37 @@
+{
+    "short_name": "LUCRO777",
+    "name": "LUCRO777",
+    "description": "LUCRO777",
+    "icons": [
+        {
+            "src": "./src/static/logo/mex/icon/32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./src/static/logo/mex/icon/128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "./src/static/logo/mex/icon/144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./src/static/logo/mex/icon/192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./src/static/logo/mex/icon/512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "./",
+    "background_color": "#0e0e0f",
+    "display": "standalone",
+    "scope": "./",
+    "theme_color": "#0e0e0f"
+}

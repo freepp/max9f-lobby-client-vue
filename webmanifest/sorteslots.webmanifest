@@ -1,0 +1,24 @@
+{
+    "name": "SorteSlots",
+    "short_name": "SorteSlots",
+    "start_url": "../",
+    "display": "standalone",
+    "background_color": "#0e0e0f",
+    "lang": "en",
+    "scope": ".",
+    "description": "SorteSlots",
+    "id": "SorteSlots",
+    "icons": [
+        {
+            "src": "./../icon/sorteslots/192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./../icon/sorteslots/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#0e0e0f"
+}

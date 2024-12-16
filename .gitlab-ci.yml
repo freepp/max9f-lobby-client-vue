@@ -1,0 +1,4 @@
+include:
+  - project: 'devops/cicd'
+    ref: main
+    file: 'lobby-client-vue.yml'

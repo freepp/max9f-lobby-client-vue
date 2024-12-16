@@ -1,0 +1,24 @@
+{
+    "name": "SuaveGame",
+    "short_name": "SuaveGame",
+    "start_url": "../",
+    "display": "standalone",
+    "background_color": "#0e0e0f",
+    "lang": "en",
+    "scope": ".",
+    "description": "SuaveGame",
+    "id": "SuaveGame",
+    "icons": [
+        {
+            "src": "./../icon/suave/192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./../icon/suave/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#0e0e0f"
+}

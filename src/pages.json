@@ -1,0 +1,339 @@
+{
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "O Cassino que está Bombando!"
+            }
+        },
+        {
+            "path": "pages/promotions/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_PROMOTION%"
+            }
+        },
+        {
+            "path": "pages/red_package/index",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/red_package/invite",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/red_package/rule",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/activity_detail/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_PROMOTION%"
+            }
+        },
+        {
+            "path": "pages/deposit/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_DEPOSIT%"
+            }
+        },
+        {
+            "path": "pages/index/pwa_guide",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/agent/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_AGENT_TITLE%"
+            }
+        },
+        {
+            "path": "pages/agent/cmsdetail",
+            "style": {
+                "navigationBarTitleText": "%KEY_AGENT_COMMISSION_DETAILS_TITLE%"
+            }
+        },
+        {
+            "path": "pages/agent/records",
+            "style": {
+                "navigationBarTitleText": "%KEY_AGENT_MENU_GET_RECORD%"
+            }
+        },
+        {
+            "path": "pages/agent/invite",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/agent/invite1",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/agent/invite2",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/withdraw/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_WITHDRAW%"
+            }
+        },
+        {
+            "path": "pages/profile/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_ME%"
+            }
+        },
+        {
+            "path": "pages/login/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_LOGIN%"
+            }
+        },
+        {
+            "path": "pages/register/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_FORMBTN_REGISTER%"
+            }
+        },
+        {
+            "path": "pages/forgot/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_FORMBTN_REGISTER%"
+            }
+        },
+        {
+            "path": "pages/change_password/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_CHANGEPASSWORD%"
+            }
+        },
+        {
+            "path": "pages/gamelist/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_GAMELIST%"
+            }
+        },
+        {
+            "path": "pages/game/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_GAME%"
+            }
+        },
+        {
+            "path": "pages/bet_record/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_BETRECORD%"
+            }
+        },
+        {
+            "path": "pages/bet_record_more/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_ALLBETRECORD%"
+            }
+        },
+        {
+            "path": "pages/fund_details/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_FUNDDETAILS%"
+            }
+        },
+        {
+            "path": "pages/user_info/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_IDDATA%"
+            }
+        },
+        {
+            "path": "pages/FAQ/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_FAQ%"
+            }
+        },
+        {
+            "path": "pages/maintain/index",
+            "style": {
+                "navigationBarTitleText": "Maintain"
+            }
+        },
+        {
+            "path": "pages/conditions/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_FAQ%"
+            }
+        },
+        {
+            "path": "pages/privacy/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_FAQ%"
+            }
+        },
+        {
+            "path": "pages/support/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_SERVICE%"
+            }
+        },
+        {
+            "path": "pages/card_list/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_CARDLIST%"
+            }
+        },
+        {
+            "path": "pages/card_info/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_CARDINFO%"
+            }
+        },
+        {
+            "path": "pages/pix_qrcode/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_DEPOSIT%"
+            }
+        },
+        {
+            "path": "pages/email/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_EMAIL_TITLE%"
+            }
+        },
+        {
+            "path": "pages/email/detail",
+            "style": {
+                "navigationBarTitleText": "%KEY_EMAIL_TITLE%"
+            }
+        },
+        {
+            "path": "pages/vip/index",
+            "style": {
+                "navigationBarTitleText": "%KEY_PAGETITLE_VIP%"
+            }
+        },
+        {
+            "path": "pages/download/index",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/signin/index",
+            "style": {
+                "navigationBarTitleText": "Signin"
+            }
+        },
+        {
+            "path": "pages/reward_history/index",
+            "style": {
+                "navigationBarTitleText": "Reward History"
+            }
+        },
+        {
+            "path": "pages/i18n/index",
+            "style": {
+                "navigationBarTitleText": "i18n"
+            }
+        },
+        {
+            "path": "pages/share_detail/index",
+            "style": {
+                "navigationBarTitleText": "Share Detail"
+            }
+        },
+        {
+            "path": "pages/auth/index",
+            "style": {
+                "navigationBarTitleText": "Logging in"
+            }
+        },
+        {
+            "path": "pages/bonus/index",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+          "path": "pages/empty/index",
+          "style": {
+              "navigationBarTitleText": ""
+          }
+      }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "vue3",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "navigationStyle": "custom"
+    },
+    "style": {
+        "app-plus": {
+            "bounce": "none"
+        }
+    },
+    "tabBar": {
+        "color": "#8D8E8E",
+        "selectedColor": "#FFFFFF",
+        "borderStyle": "black",
+        "backgroundColor": "var(--theme-tab-color)",
+        "fontSize": "12px",
+        "spacing": "0",
+        "iconWidth": "24px",
+        "midButton": {
+            "iconPath": "/static/logo.en.png",
+            "height": "80px",
+            "iconWidth": "60px",
+            "text": ""
+        },
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "/static/tabbar/home.png",
+                "selectedIconPath": "/static/tabbar/home_choosed.png",
+                "text": "%KEY_TABBAR_HOME%"
+            },
+            {
+              "pagePath": "pages/agent/index",
+              "iconPath": "/static/tabbar/invite.png",
+              "selectedIconPath": "/static/tabbar/invite_choosed.png",
+              "text": "%KEY_TABBAR_INVITE%"
+            },
+            {
+                "pagePath": "pages/deposit/index",
+                "iconPath": "/static/tabbar/wallet.png",
+                "selectedIconPath": "/static/tabbar/wallet_choosed.png",
+                "text": "%KEY_TABBAR_WALLET%"
+            },
+            {
+                "pagePath": "pages/promotions/index",
+                "iconPath": "/static/tabbar/promotion.png",
+                "selectedIconPath": "/static/tabbar/promotion_choosed.png",
+                "text": "%KEY_TABBAR_PROMOTION%"
+            },
+            {
+                "pagePath": "pages/profile/index",
+                "iconPath": "/static/tabbar/me.png",
+                "selectedIconPath": "/static/tabbar/me_choosed.png",
+                "text": "%KEY_TABBAR_ME%"
+            }
+        ]
+    },
+    "easycom": {
+        "autoscan": true,
+        "custom": {
+            "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+        }
+    }
+}

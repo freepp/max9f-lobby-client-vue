@@ -1,0 +1,15 @@
+zhuanpanspin.png
+size:1080,1080
+filter:Linear,Linear
+pma:true
+scale:0.667
+gaizi
+bounds:2,503,539,538
+offsets:0,1,539,539
+zhuanpan
+bounds:2,2,499,499
+zhuanpan copy
+bounds:543,646,125,125
+zhuanpanzhongjiangguang
+bounds:543,773,207,268
+offsets:1,1,209,270

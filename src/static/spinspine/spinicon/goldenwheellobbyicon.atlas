@@ -1,0 +1,12 @@
+goldenwheellobbyicon.png
+size:256,256
+filter:Linear,Linear
+pma:true
+di
+bounds:126,102,130,67
+offsets:1,0,132,67
+rotate:90
+gai
+bounds:2,110,122,122
+zhuanpan
+bounds:2,2,106,106

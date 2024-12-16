@@ -1,0 +1,17 @@
+dt_share.png
+size:1153,204
+filter:Linear,Linear
+pma:true
+share2
+bounds:1039,89,112,113
+offsets:1,1,114,114
+share_01
+bounds:846,10,191,192
+offsets:1,1,193,193
+share_di
+bounds:2,2,540,200
+share_tx_01
+bounds:544,38,36,37
+offsets:1,1,38,38
+share_zi
+bounds:544,77,300,125

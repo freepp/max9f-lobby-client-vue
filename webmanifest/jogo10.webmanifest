@@ -1,0 +1,24 @@
+{
+    "name": "jogo10br",
+    "short_name": "jogo10br",
+    "start_url": "../",
+    "display": "standalone",
+    "background_color": "#0e0e0f",
+    "lang": "en",
+    "scope": ".",
+    "description": "jogo10br",
+    "id": "jogo10br",
+    "icons": [
+        {
+            "src": "./../icon/jogo10/192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./../icon/jogo10/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#0e0e0f"
+}
